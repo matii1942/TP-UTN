@@ -1,0 +1,51 @@
+body {
+    background-image: url("Assets/IMG/fondo.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    color: beige;
+}
+
+
+.encabezado{
+    text-align: center;
+    color: beige;
+    border: 2px silver solid;
+    border-radius: 10%;
+    background-image: linear-gradient(rgba(5 ,7 ,12 ,0.75),rgba(5,7 ,12 , 0.75)), url(Assets/IMG/gimasio.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cuerpo{
+    display: flex;
+}
+.ul{
+    font-size: 40px;
+    align-content: baseline;
+}
+.p{
+    font-size: 20px;
+}
+.pesas{
+    display: flex;
+    border-radius: 25%;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+    margin-right: 15%;
+    float: right;
+
+}
+.pesas:hover{
+    transform: scale(1.2);
+}
+ 
+
+
+.formulario{
+    background-image: url(Assets/IMG/gimasio.jpeg)
+}
+h1{
+    font-size: 38px;
+    font-family: fantasy;
+}
