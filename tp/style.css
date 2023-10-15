@@ -17,6 +17,7 @@ body {
 }
 .cuerpo{
     display: flex;
+    flex-direction: column;
 }
 .ul{
     font-size: 40px;
@@ -26,7 +27,6 @@ body {
     font-size: 20px;
 }
 .pesas{
-    display: flex;
     border-radius: 25%;
     width: 50%;
     height: 100%;
@@ -48,4 +48,16 @@ body {
 h1{
     font-size: 38px;
     font-family: fantasy;
+}
+.texto1{
+    border-radius: 20px;
+    border: silver solid;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: xx-large;
+}
+.subt{
+    font-size: xx-large;
 }
