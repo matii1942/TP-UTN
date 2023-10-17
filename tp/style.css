@@ -19,11 +19,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-.ul{
-    font-size: 40px;
+ul{
+    font-size: xx-large;
     align-content: baseline;
 }
-.p{
+p{
     font-size: 20px;
 }
 .pesas{
@@ -46,7 +46,7 @@ body {
     background-image: url(Assets/IMG/gimasio.jpeg)
 }
 h1{
-    font-size: 38px;
+    font-size: 50px;
     font-family: fantasy;
 }
 .texto1{
