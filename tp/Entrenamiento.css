@@ -72,6 +72,7 @@ h2{
     color: bisque;
 }
 .card .contenido h3{
+    color: bisque;
     font-weight: 400;
     margin-bottom: 15px;
 }
@@ -91,3 +92,30 @@ h2{
     color: #fff;
 }
 
+.container-fluid{
+    background-color: rgb(197, 214, 161);
+}
+
+@media (min-width: 360px){
+    .container{
+        flex-wrap: wrap;
+    }
+
+}
+@media (min-width: 530px){
+    .container{
+        flex-wrap: nowrap;
+    }
+}
+@media (min-width: 713px) {
+    .encabezado{
+        margin: 5%;
+    }
+    
+}
+@media (min-width: 889px) {
+    .encabezado{
+        margin: 4%;
+    }
+    
+}

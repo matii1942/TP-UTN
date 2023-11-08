@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 18px;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-image: url(Assets/GAL/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pag{
+    padding: 90px;
+}
+
+.imagen{
+  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    display: flex;
+    
+}
+
+.imagen img{
+    border: solid rgb(232, 241, 232) 7px;
+    margin: 9px;
+    width: 200px;
+    height: 159px
+}
+
+.imagen img:hover{
+    transform: scale(2.5);
+    transition: all 400ms ease;
+}
+
+.encabezado{
+    font-family: math;
+    color: cadetblue;
+}
+
